@@ -1,0 +1,24 @@
+# 运行时生成 / 敏感文件 —— 绝不提交
+mi_cloud_session.json
+mi_gateway_did.json
+mi_qr.jpg
+*.log
+
+# 第三方登录脚本（版权属原作者，本仓库不内置）
+token_extractor.py
+
+# 任何可能含凭据的本地文件
+q4d_key.txt
+*key*.txt
+*.token
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# 系统
+Thumbs.db
+.DS_Store
